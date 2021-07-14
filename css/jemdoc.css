@@ -198,6 +198,10 @@ dd > *:first-child {
 }
 
 ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul {
 	list-style-position: outside;
 	list-style-type: square;
 	color: #527bbd;
