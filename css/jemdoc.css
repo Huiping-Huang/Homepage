@@ -200,6 +200,7 @@ dd > *:first-child {
 ul {
 	list-style-position: outside;
 	list-style-type: square;
+	color: #527bbd;
 }
 
 p + ul, p + ol {
