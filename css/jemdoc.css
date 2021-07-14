@@ -210,10 +210,10 @@ ul li::before {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
-ul {
+/* ul {
 	list-style-position: outside;
 	list-style-type: square;
-}
+} */
 
 p + ul, p + ol {
 	margin-top: -0.5em;
