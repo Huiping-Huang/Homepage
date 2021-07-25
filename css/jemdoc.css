@@ -207,12 +207,8 @@ p + ul, p + ol {
 	margin-top: -0.5em;
 }
 
-/*li ul, li ol {
+li ul, li ol {
 	margin-top: -0.3em;
-} */
-
-ol li:before {
-    content: "[C" counter(item) "] ";
 }
 
 ol {
