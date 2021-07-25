@@ -211,6 +211,11 @@ li ul, li ol {
 	margin-top: -0.3em;
 }
 
+ol li:before {content: "[C" counter(item) "] "; 
+    margin-left: -1em; 
+    margin-right: .65em;
+}
+
 ol {
 	list-style-position: outside;
 	list-style-type: decimal;
