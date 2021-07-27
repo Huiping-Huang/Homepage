@@ -211,21 +211,6 @@ li ul, li ol {
 	margin-top: -0.3em;
 }
 
-
-
-ol {
-    counter-reset: list;
-}
-ol > li {
-    list-style: none;
-}
-ol > li:before {
-    content: counter(list) ") ";
-    counter-increment: list;
-}
-
-
-
 ol {
 	list-style-position: outside;
 	list-style-type: decimal;
