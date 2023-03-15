@@ -6,13 +6,12 @@ table#tlayout {
     background: white;
 }
 
-html, body {
+body {
 	background: white;
 	font-family: "Times New Roman", Arial, Times, Serif;   /* Arial, Tahoma, Serif; */
 	font-size: 110%;  /* 100%; */
 	padding-bottom: 8px;
 	margin: 0;
-	min-height: 100%;
 }
 
 #layout-menu {
@@ -22,25 +21,25 @@ html, body {
 	padding-left: 8px;
 	padding-right: 8px;
 	font-size: 1.08em;  /* 1.0em;  */
-	width: auto;
+	width: 100%;   /* auto; */
 	white-space: nowrap;
-    text-align: left;
-    vertical-align: top;
+   	text-align: left;
+  	vertical-align: top;
 }
 
 #layout-menu td {
 	background: #f4f4f4;
-    vertical-align: top;
+    	vertical-align: top;
 }
 
 #layout-content {
 	padding-top: 0.0em;
 	padding-left: 1.0em;
 	padding-right: 1.0em;
-    border: none;
-    background: white;
-    text-align: left;
-    vertical-align: top;
+    	border: none;
+   	 background: white;
+    	text-align: left;
+    	vertical-align: top;
 }
 
 #layout-menu a {
