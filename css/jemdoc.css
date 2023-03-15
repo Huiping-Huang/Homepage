@@ -1,9 +1,10 @@
 /* Default css file for jemdoc. */
 
 table#tlayout {
-    border: none;
-    border-collapse: separate;
-    background: white;
+    	border: none;
+    	border-collapse: separate;
+    	background: white;
+	width: 100%;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
 	font-size: 110%;  /* 100%; */
 	padding-bottom: 8px;
 	margin: 0;
-	width: 100%;
 }
 
 #layout-menu {
