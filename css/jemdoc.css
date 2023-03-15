@@ -12,6 +12,7 @@ body {
 	font-size: 110%;  /* 100%; */
 	padding-bottom: 8px;
 	margin: 0;
+	height: 100%;
 }
 
 #layout-menu {
